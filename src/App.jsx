@@ -1,10 +1,18 @@
 import React from 'react'
 
+import Header from './components/header/Header'
+import About from './components/about/About'
+import Projects from './components/projects/Projects'
+import Contact from './components/contact/Contact'
+
 
 const App = () =>{
   return(
     <div className="app">
-      <h2>hola mundo desde react</h2>
+      <Header/>
+      <About/>
+      <Projects/>
+      <Contact/>
     </div>
   )
 }
