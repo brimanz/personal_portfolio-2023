@@ -51,7 +51,7 @@ const Links = styled.a`
 	color: dimgrey;
 
 	:hover{
-		color: darkred;
+		color: #EDE574;
 	}
 `
 const Github = styled(GitHubIcon)`
