@@ -9,8 +9,8 @@ const Header = () =>{
 				<Title>I'm Jonathan Briceño</Title>
 				<Subtitle>Frontend Developer</Subtitle>
 				
-				<Button>Download CV</Button>
-
+				<Button href="../assets.CV_OFICAL.pdf" download="CV_OFICIAL.pdf">Download CV</Button>
+				
 				<a href="#about">
 					<Arrows/>
 				</a>
@@ -26,41 +26,41 @@ export default Header;
 const Container = styled.div`
 	width: 100%;
 	height: 100vh;
-	background: #0f0c29;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 	display: flex;
 	justify-content: center;
 `;
 const Title = styled.h1`
-	font-size: 3rem;
+	font-size: 2rem;
+	text-align: center;
 	font-weight: 400;
-	font-family: 'Island Moments', cursive;
+	font-family: 'sans-sefir;
 
 	text-shadow: 1px 1px 1px #0000000;
 	margin: 0 4rem;
 	color: #f5f5f5;
 
-	@media (max-width: 320px){
-		font-size: 1.6rem;
+	@media (max-width: 340px){
 		text-align: center;
 		margin-bottom: 2rem;
 	}
 `;
 const Subtitle = styled.h2`
-	font-size: 5rem;
-	font-weight: bold;
-	font-family: sans-serif;
+	font-size: 8rem;
+	font-weight: 400;
+	font-family: 'Island Moments', cursive;
 
-	text-shadow: 1px 3px 1px rgba(255,255,255, 0.3);
+	text-shadow: 2px 1px 1px rgba(255,255,255, 0.55);
 	margin: 0 4rem;
 	color: #EDE574;
 
-	@media (max-width: 320px){
-		font-size: 2.4rem;
-		text-align: center;
+	@media (max-width: 720px){
+		font-size: 3rem;
+		margin-bottom: 3rem;
+	}
+
+	@media (max-width: 340px){
+		font-size: 2.1rem;
+		margin-top: 2rem;
 	}
 `;
 const HeaderContent = styled.div`
@@ -72,11 +72,14 @@ const HeaderContent = styled.div`
 	flex-direction: column;
 	margin-top: 8rem;
 `;
-const Button = styled.button`
+const Button = styled.a`
 	margin-top: 2rem;
-	width: 10rem;
+	background: #f5f5f5;
 	padding: 1rem;
+	width: 10rem;
 	
+	text-decoration: none;
+	text-align: center;
 	border: none;
 	color: navy;
 	font-weight: bold;
@@ -85,6 +88,11 @@ const Button = styled.button`
 
 	:hover{
 		background:#EDE574;
+	}
+
+	@media (max-width: 720px){
+		width: 8rem;
+		font-size: 0.8rem;
 	}
 
 	@media (max-width: 320px){

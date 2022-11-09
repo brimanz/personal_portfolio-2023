@@ -32,18 +32,34 @@ export default Navbar;
 
 const Container = styled.div`
 	background-color: #ffffff;
+
+	@media (max-width: 340px){
+		height: 3.6rem;
+	}
 `;
 const NavContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
+	@media (max-width: 340px){
+		justify-content: center;
+	}
 `;
 const Logo = styled.img`
 	width: 5.5rem;
 	margin: 0 2rem;
+
+	@media (max-width: 340px){
+		width: 3.5rem;
+	}
 `;
 const ContainerIcons = styled.div`
 	margin: 0 2rem;
+
+	@media (max-width: 340px){
+		display: none;
+	}
 `;
 const Links = styled.a`
 	padding: 0 1rem;
