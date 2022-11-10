@@ -10,7 +10,7 @@ const Navbar = () =>{
 	return(
 		<Container className="app__navbar">
 			<NavContainer>
-				<Logo src="../assets/logo.png" alt="logo-image"/>
+				<Logo src="../assets/logo.gif" alt="logo-image"/>
 
 				<ContainerIcons>
 					<Links href="https://github.com/brimanz">
@@ -31,7 +31,8 @@ export default Navbar;
 
 
 const Container = styled.div`
-	background-color: #ffffff;
+	width: 100%;
+	border-bottom: 1px solid #EDE574;
 
 	@media (max-width: 340px){
 		height: 3.6rem;
@@ -47,8 +48,9 @@ const NavContainer = styled.div`
 	}
 `;
 const Logo = styled.img`
-	width: 5.5rem;
+	width: 5rem;
 	margin: 0 2rem;
+
 
 	@media (max-width: 340px){
 		width: 3.5rem;
@@ -64,7 +66,7 @@ const ContainerIcons = styled.div`
 const Links = styled.a`
 	padding: 0 1rem;
 	text-decoration: none;
-	color: dimgrey;
+	color: #ffffff;
 
 	:hover{
 		color: #EDE574;
