@@ -32,6 +32,35 @@ const About = () =>{
 				</Text>
 			</Content>
 
+			<SkillsContainer>
+				<div>
+					<Titles>Frontend</Titles>
+            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+          			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" />
+            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
+            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+				</div>
+
+				<div>
+					<Titles>Testing</Titles>
+            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" />          
+				</div>
+
+				<div>
+					<Titles>Blockchain</Titles>           		
+            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" />
+            	</div>
+
+				<div>
+					<Titles>Learning</Titles>
+          			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" />
+          			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />
+				</div>
+			</SkillsContainer>
+
 		</AboutContainer>
 	);
 }
@@ -80,4 +109,24 @@ const Text = styled.p`
 const Image = styled.img`
 	width: 25%;
 	margin: 0 6rem;
+`;
+const SkillsContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	margin: 3rem 0;
+`;
+const Titles = styled.h2`
+	font-size: 2.2rem;
+	font-family: 'Island Moments', cursive;
+	font-weight: 400;
+	color: #EDE574;
+	margin: 2rem 4rem;
+`;
+const SkillsIcons = styled.img`
+	width: 3rem;
+	height: 3rem;
+	padding: 0 2rem;
 `;
