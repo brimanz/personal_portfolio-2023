@@ -2,6 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
+
 const Header = () =>{
 	return(
 		<Container id="header">
@@ -9,7 +10,7 @@ const Header = () =>{
 				<Title>I'm Jonathan Briceño</Title>
 				<Subtitle>Frontend Developer</Subtitle>
 				
-				<Button href="../assets.CV_OFICAL.pdf" download="CV_OFICIAL.pdf">Download CV</Button>
+				<Button href="../assets/CV_OFICIAL.pdf" download="CV_OFICIAL">Download CV</Button>
 				
 				<a href="#about">
 					<Arrows/>
