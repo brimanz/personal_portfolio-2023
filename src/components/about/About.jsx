@@ -95,6 +95,10 @@ const Title = styled.h2`
 	font-weight: 400;
 	color: #EDE574;
 	margin: 0 2rem;
+
+	@media (max-width: 340px){
+		font-size: 3rem;
+	}
 `;
 const Text = styled.p`
 	width: 100%;
@@ -106,6 +110,10 @@ const Text = styled.p`
 
 	font-weight: bold;
 	font-size: 1rem;
+
+	@media (max-width: 340px){
+		font-size: 0.7rem;
+	}
 `;
 const Image = styled.img`
 	width: 25%;
@@ -120,7 +128,7 @@ const SkillsContainer = styled.div`
 	margin: 3rem 0;
 `;
 const Titles = styled.h2`
-	font-size: 2.2rem;
+	font-size: 2.11rem;
 	font-family: 'Island Moments', cursive;
 	font-weight: 400;
 	color: #EDE574;

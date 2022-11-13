@@ -19,7 +19,7 @@ const Projects = () =>{
 					
 					<LinksContainer>
 						<LinkItems2/>
-						<LinkItems/>
+						<a href="https://venezuelan-crypto.netlify.app/"><LinkItems/></a>
 					</LinksContainer>
 				</ProjectContainer>
 
@@ -31,8 +31,8 @@ const Projects = () =>{
 					</ProjectText>
 					
 					<LinksContainer>
-						<a href="https://github.com/brimanz"><LinkItems2/></a>
-						<LinkItems/>
+						<a ><LinkItems2/></a>
+						<a href="https://tesla-clone-version.netlify.app/"><LinkItems/></a>
 					</LinksContainer>
 				</ProjectContainer>
 
@@ -44,8 +44,8 @@ const Projects = () =>{
 					</ProjectText>
 					
 					<LinksContainer>
-						<a href="https://github.com/brimanz"><LinkItems2/></a>
-						<LinkItems/>
+						<a ><LinkItems2/></a>
+						<a href="https://merida-ciudad.netlify.app/"><LinkItems/></a>
 					</LinksContainer>
 				</ProjectContainer>
 
@@ -58,7 +58,7 @@ const Projects = () =>{
 
 					<LinksContainer>
 						<a href="https://github.com/brimanz"><LinkItems2/></a>
-						<LinkItems/>				
+						<a href="https://jonathan-briceno.netlify.app/"><LinkItems/></a>			
 					</LinksContainer>
 				</ProjectContainer>
 
@@ -70,8 +70,8 @@ const Projects = () =>{
 					</ProjectText>
 
 					<LinksContainer>
-						<LinkItems2/>
-						<LinkItems/>
+						<a href="https://github.com/brimanz"><LinkItems2/></a>
+						<a href="https://crypto-co.netlify.app/"><LinkItems/></a>
 					</LinksContainer>
 				</ProjectContainer>
 
@@ -83,21 +83,8 @@ const Projects = () =>{
 					</ProjectText>
 
 					<LinksContainer>
-						<LinkItems2/>
-						<LinkItems/>
-					</LinksContainer>
-				</ProjectContainer>
-
-				<ProjectContainer>
-					<ProjectTitle>Expense manger</ProjectTitle>
-					<ProjectImage src="../assets/projects/app4.png" alt="app-1"/>
-					<ProjectText>
-						React - Javascript - SkeletonCss
-					</ProjectText>
-
-					<LinksContainer>
 						<a href="https://github.com/brimanz"><LinkItems2/></a>
-						<LinkItems/>
+						<a href="https://seguros-info.netlify.app/"><LinkItems/></a>
 					</LinksContainer>
 				</ProjectContainer>
 
@@ -123,16 +110,30 @@ const Title = styled.h2`
 	font-weight: 400;
 	color: #EDE574;
 	margin: 0 2rem;
+
+	@media (max-width: 680px){
+		margin: 2.5rem 0;
+	}
+
+	@media (max-width: 340px){
+		font-size: 3rem;
+		margin: 4rem 0;
+	}
 `;
 const WorksContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	
-	justify-content: space-between;
-	margin: 3rem 5rem;
+	margin: 1rem 2rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+
+	@media (max-width: 680px){
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	@media (max-width: 340px){
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
 `;
 const ProjectContainer = styled.div`
 	margin: 3rem 5rem;
@@ -144,6 +145,12 @@ const ProjectContainer = styled.div`
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
+
+	@media (max-width: 340px){
+		margin: 1rem 0;
+		width: 13rem;
+		height: 20rem;		
+	}
 `;
 const ProjectTitle = styled.h2`
 	font-size: 2.4rem;
@@ -151,12 +158,28 @@ const ProjectTitle = styled.h2`
 	font-weight: 400;
 	color: #EDE574;
 	margin: 1rem;
+
+	@media (max-width: 340px){
+		font-size: 1rem;		
+	}
 `;
 const ProjectImage = styled.img`
 	width: 20rem;
+	height: 12rem;
+
+	@media (max-width: 340px){
+		width: 13rem;
+		height: 10rem;		
+	}	
 `;
 const LinksContainer = styled.div`
-	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	@media (max-width: 340px){
+		margin: 1.2rem 0;		
+	}
 `;
 const LinkItems = styled(PhonelinkIcon)`
 	text-decoration: none;
@@ -168,6 +191,11 @@ const LinkItems = styled(PhonelinkIcon)`
 
 	:hover{
 		color: #ffffff;
+	}
+
+	@media (max-width: 340px){
+		font-size: 1.5rem;
+		margin: 0 1.3rem;		
 	}
 `;
 const LinkItems2 = styled(GitHubIcon)`
@@ -181,10 +209,20 @@ const LinkItems2 = styled(GitHubIcon)`
 	:hover{
 		color: #EDE574;
 	}
+
+	@media (max-width: 340px){
+		font-size: 1.5rem;
+		margin: 0 1.3rem;	
+	}
 `;
 const ProjectText = styled.p`
 	font-size: 1.1rem;
 	color: #ffffff;
-	margin: 1rem;
+	margin: 1rem 0;
+	width: 100%;
+
+	@media (max-width: 340px){
+		font-size: 0.7rem;		
+	}
 `;
 
