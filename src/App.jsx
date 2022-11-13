@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from '@emotion/styled'
 
 import Navbar from './components/navbar/Navbar'
 import Header from './components/header/Header'
@@ -9,7 +10,7 @@ import Contact from './components/contact/Contact'
 
 const App = () =>{
   return(
-    <div className="app">
+    <div>
       <Navbar/>
       <Header/>
       <About/>

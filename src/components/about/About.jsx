@@ -19,8 +19,6 @@ const About = () =>{
 					techniques.
 				</Text>
 			</Content>
-
-			<Image src="../assets/code.png" alt="avatar"/>
 			
 			<Title>Skills</Title>
 
@@ -33,7 +31,7 @@ const About = () =>{
 			</Content>
 
 			<SkillsContainer>
-				<div>
+				<SpaceContainer>
 					<Titles>Frontend</Titles>
             		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="react"/>
           			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" title="javascript"/>
@@ -43,24 +41,24 @@ const About = () =>{
             		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" title="tailwind-CSS"/>
             		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" title="html"/>
           		  	<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" title="css"/>
-				</div>
+				</SpaceContainer>
 
-				<div>
+				<SpaceContainer>
 					<Titles>Testing</Titles>
             		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" title="jest"/>
             		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" title="mocha"/>          
-				</div>
+				</SpaceContainer>
 
-				<div>
+				<SpaceContainer>
 					<Titles>Blockchain</Titles>           		
             		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" title="solidity"/>
-            	</div>
+            	</SpaceContainer>
 
-				<div>
+				<SpaceContainer>
 					<Titles>Learning</Titles>
           			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" title="cSharp"/>
           			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" title="dotNet"/>
-				</div>
+				</SpaceContainer>
 			</SkillsContainer>
 
 		</AboutContainer>
@@ -76,6 +74,7 @@ const AboutContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 3rem;
 `;
 const Content = styled.div`
 	max-width: 40rem;
@@ -126,6 +125,10 @@ const Titles = styled.h2`
 	font-weight: 400;
 	color: #EDE574;
 	margin: 2rem 4rem;
+`;
+
+const SpaceContainer = styled.div`
+	margin: 1.5rem 0;
 `;
 const SkillsIcons = styled.img`
 	width: 3rem;
