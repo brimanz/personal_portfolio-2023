@@ -50,7 +50,7 @@ const Projects = () =>{
 				</ProjectContainer>
 
 				<ProjectContainer>
-					<ProjectTitle>Portfolio 2022</ProjectTitle>
+					<ProjectTitle>Old Portfolio</ProjectTitle>
 					<ProjectImage src="../assets/projects/app5.png" alt="app-1"/>
 					<ProjectText>
 						NextJs - Javascript - Styled-components
@@ -113,11 +113,11 @@ const Title = styled.h2`
 
 	@media (max-width: 680px){
 		margin: 2.5rem 0;
+		margin: 0;
 	}
 
 	@media (max-width: 340px){
 		font-size: 3rem;
-		margin: 4rem 0;
 	}
 `;
 const WorksContainer = styled.div`
@@ -125,12 +125,14 @@ const WorksContainer = styled.div`
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 
-	@media (max-width: 680px){
+	@media (max-width: 980px){
+		margin: 2rem auto;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
-	}
+	}	
 
 	@media (max-width: 340px){
+		margin: 2rem auto;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}

@@ -148,4 +148,9 @@ const SkillsIcons = styled.img`
 		{-webkit-transform:scale(0.8);transform:scale(0.8);}
 		{overflow:hidden;}
 	}
+
+	@media (max-width: 340px){
+		width: 2remem;
+		height: 2rem;
+	}
 `;
