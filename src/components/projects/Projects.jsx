@@ -116,12 +116,12 @@ const Title = styled.h2`
 		margin: 0;
 	}
 
-	@media (max-width: 340px){
+	@media (max-width: 49px){
 		font-size: 3rem;
 	}
 `;
 const WorksContainer = styled.div`
-	margin: 1rem 2rem;
+	margin: 2rem 8rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 
@@ -131,8 +131,8 @@ const WorksContainer = styled.div`
 		grid-template-columns: repeat(1, 1fr);
 	}	
 
-	@media (max-width: 340px){
-		margin: 2rem auto;
+	@media (max-width: 479px){
+		margin: 3rem auto;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -148,8 +148,8 @@ const ProjectContainer = styled.div`
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
 
-	@media (max-width: 340px){
-		margin: 1rem 0;
+	@media (max-width: 479px){
+		margin: 4rem 0;
 		width: 13rem;
 		height: 20rem;		
 	}
@@ -161,15 +161,15 @@ const ProjectTitle = styled.h2`
 	color: #EDE574;
 	margin: 1rem;
 
-	@media (max-width: 340px){
-		font-size: 1rem;		
+	@media (max-width: 479px){
+		font-size: 1.4rem;		
 	}
 `;
 const ProjectImage = styled.img`
 	width: 20rem;
 	height: 12rem;
 
-	@media (max-width: 340px){
+	@media (max-width: 479px){
 		width: 13rem;
 		height: 10rem;		
 	}	
@@ -179,7 +179,7 @@ const LinksContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 
-	@media (max-width: 340px){
+	@media (max-width: 479px){
 		margin: 1.2rem 0;		
 	}
 `;
@@ -195,8 +195,8 @@ const LinkItems = styled(PhonelinkIcon)`
 		color: #ffffff;
 	}
 
-	@media (max-width: 340px){
-		font-size: 1.5rem;
+	@media (max-width: 479px){
+		font-size: 1.2rem;
 		margin: 0 1.3rem;		
 	}
 `;
@@ -212,18 +212,18 @@ const LinkItems2 = styled(GitHubIcon)`
 		color: #EDE574;
 	}
 
-	@media (max-width: 340px){
-		font-size: 1.5rem;
+	@media (max-width: 479px){
+		font-size: 1.2rem;
 		margin: 0 1.3rem;	
 	}
 `;
 const ProjectText = styled.p`
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	color: #ffffff;
 	margin: 1rem 0;
 	width: 100%;
 
-	@media (max-width: 340px){
+	@media (max-width: 49px){
 		font-size: 0.7rem;		
 	}
 `;
