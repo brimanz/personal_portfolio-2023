@@ -113,8 +113,7 @@ const Title = styled.h2`
 	margin: 0 2rem;
 
 	@media (max-width: 680px){
-		margin: 2.5rem 0;
-		margin: 0;
+		margin-top: 8rem;
 	}
 
 	@media (max-width: 479px){
@@ -224,8 +223,8 @@ const ProjectText = styled.p`
 	margin: 1rem 0;
 	width: 100%;
 
-	@media (max-width: 49px){
-		font-size: 0.7rem;		
+	@media (max-width: 479px){
+		font-size: 0.8rem;		
 	}
 `;
 
