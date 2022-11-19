@@ -98,8 +98,9 @@ export default Projects;
 
 
 const ProjectsContainer = styled.div`
-	height: 40rem;
-	margin-top: 55rem;
+	height: 65rem;
+	width: 100%;
+	margin-top: 45rem;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -116,7 +117,7 @@ const Title = styled.h2`
 		margin: 0;
 	}
 
-	@media (max-width: 49px){
+	@media (max-width: 479px){
 		font-size: 3rem;
 	}
 `;

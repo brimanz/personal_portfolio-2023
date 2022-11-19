@@ -32,6 +32,7 @@ export default Navbar;
 
 const Container = styled.div`
 	width: 100%;
+	height: 5rem;
 	border-bottom: 1px solid #EDE574;
 
 	@media (max-width: 340px){

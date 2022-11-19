@@ -6,6 +6,7 @@
 
 html{
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body{
@@ -14,6 +15,9 @@ body{
   background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Roboto', sans-serif;
   overflow-x: hiden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /*keyframes*/

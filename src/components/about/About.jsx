@@ -70,11 +70,12 @@ export default About;
 
 
 const AboutContainer = styled.div`
-	height: 35rem;
+	height: 65rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 3rem;
+	height: 50rem;
 `;
 const Content = styled.div`
 	max-width: 40rem;
