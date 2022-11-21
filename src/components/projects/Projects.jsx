@@ -121,14 +121,14 @@ const Title = styled.h2`
 	}
 `;
 const WorksContainer = styled.div`
-	margin: 2rem 8rem;
+	margin: auto 1rem;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 
 	@media (max-width: 980px){
 		margin: 2rem auto;
 		display: grid;
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}	
 
 	@media (max-width: 479px){
@@ -138,9 +138,9 @@ const WorksContainer = styled.div`
 	}
 `;
 const ProjectContainer = styled.div`
-	margin: 3rem 5rem;
-	width: 27rem;
-	height: 25rem;
+	margin: 3rem auto;
+	width: 19rem;
+	height: 23rem;
 
 	background: rgba(255, 255, 255, 0.2);
 	border-radius: 16px;
@@ -148,10 +148,15 @@ const ProjectContainer = styled.div`
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
 
-	@media (max-width: 479px){
-		margin: 4rem 0;
-		width: 13rem;
+	@media (max-width: 980px){
+		margin: 2rem;
+		width: 17rem;
 		height: 20rem;		
+	}	
+
+	@media (max-width: 479px){
+		width: 20rem;
+		height: 23rem;		
 	}
 `;
 const ProjectTitle = styled.h2`
@@ -159,19 +164,24 @@ const ProjectTitle = styled.h2`
 	font-family: 'Island Moments', cursive;
 	font-weight: 400;
 	color: #EDE574;
-	margin: 1rem;
+	margin: 0.5rem;
 
 	@media (max-width: 479px){
 		font-size: 1.4rem;		
 	}
 `;
 const ProjectImage = styled.img`
-	width: 20rem;
+	width: 19rem;
 	height: 12rem;
 
+	@media (max-width: 980px){
+		width: 17rem;	
+		height: 10rem;
+	}	
+
 	@media (max-width: 479px){
-		width: 13rem;
-		height: 10rem;		
+		width: 18rem;
+		height: 12rem;		
 	}	
 `;
 const LinksContainer = styled.div`
@@ -180,7 +190,7 @@ const LinksContainer = styled.div`
 	justify-content: center;
 
 	@media (max-width: 479px){
-		margin: 1.2rem 0;		
+		margin: 1.4rem 0;		
 	}
 `;
 const LinkItems = styled(PhonelinkIcon)`
@@ -195,9 +205,13 @@ const LinkItems = styled(PhonelinkIcon)`
 		color: #ffffff;
 	}
 
+	@media (max-width: 980px){
+		font-size: 1.4rem;		
+	}
+
 	@media (max-width: 479px){
-		font-size: 1.2rem;
-		margin: 0 1.3rem;		
+		font-size: 1.6rem;
+		margin: 0 1.5rem;		
 	}
 `;
 const LinkItems2 = styled(GitHubIcon)`
@@ -212,9 +226,13 @@ const LinkItems2 = styled(GitHubIcon)`
 		color: #EDE574;
 	}
 
+	@media (max-width: 980px){
+		font-size: 1.4rem;		
+	}
+
 	@media (max-width: 479px){
-		font-size: 1.2rem;
-		margin: 0 1.3rem;	
+		font-size: 1.6rem;
+		margin: 0 1.5rem;	
 	}
 `;
 const ProjectText = styled.p`
@@ -224,7 +242,7 @@ const ProjectText = styled.p`
 	width: 100%;
 
 	@media (max-width: 479px){
-		font-size: 0.8rem;		
+		font-size: 1rem;		
 	}
 `;
 

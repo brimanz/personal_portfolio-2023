@@ -56,8 +56,8 @@ const About = () =>{
 
 				<SpaceContainer>
 					<Titles>Learning</Titles>
-          			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" title="cSharp"/>
-          			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" title="dotNet"/>
+            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="python"/>
+          			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" title="django"/>
 				</SpaceContainer>
 			</SkillsContainer>
 
