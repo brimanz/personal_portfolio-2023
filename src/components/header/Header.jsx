@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import AOS from 'aos';
 
 
 const Header = () =>{
 	return(
 		<Container id="header">
-			<HeaderContent>
+			<HeaderContent data-aos="zoom-in-up">
 				<Title>I'm Jonathan Briceño</Title>
 				<Subtitle>Frontend Developer</Subtitle>
 				
