@@ -10,7 +10,12 @@ const Projects = () =>{
 			<Title>Projects</Title>
 
 			<WorksContainer>
-				<ProjectContainer>
+				<ProjectContainer
+					data-aos="fade-zoom-in"
+     				data-aos-easing="ease-in-back"
+     				data-aos-delay="300"
+     				data-aos-offset="0"
+				>
 					<ProjectTitle>Blockchain App</ProjectTitle>
 					<ProjectImage src="../assets/projects/app1.png" alt="app-1"/>
 					<ProjectText>
@@ -23,7 +28,12 @@ const Projects = () =>{
 					</LinksContainer>
 				</ProjectContainer>
 
-				<ProjectContainer>
+				<ProjectContainer
+					data-aos="fade-zoom-in"
+     				data-aos-easing="ease-in-back"
+     				data-aos-delay="500"
+     				data-aos-offset="0"
+				>
 					<ProjectTitle>Tesla Clone</ProjectTitle>
 					<ProjectImage src="../assets/projects/app7.png" alt="app-1"/>
 					<ProjectText>
@@ -36,7 +46,12 @@ const Projects = () =>{
 					</LinksContainer>
 				</ProjectContainer>
 
-				<ProjectContainer>
+				<ProjectContainer
+					data-aos="fade-zoom-in"
+     				data-aos-easing="ease-in-back"
+     				data-aos-delay="700"
+     				data-aos-offset="0"
+				>
 					<ProjectTitle>Mérida Web-site</ProjectTitle>
 					<ProjectImage src="../assets/projects/app6.png" alt="app-1"/>
 					<ProjectText>
@@ -49,7 +64,12 @@ const Projects = () =>{
 					</LinksContainer>
 				</ProjectContainer>
 
-				<ProjectContainer>
+				<ProjectContainer
+					data-aos="fade-zoom-in"
+     				data-aos-easing="ease-in-back"
+     				data-aos-delay="900"
+     				data-aos-offset="0"
+				>
 					<ProjectTitle>Old Portfolio</ProjectTitle>
 					<ProjectImage src="../assets/projects/app5.png" alt="app-1"/>
 					<ProjectText>
@@ -62,7 +82,12 @@ const Projects = () =>{
 					</LinksContainer>
 				</ProjectContainer>
 
-				<ProjectContainer>
+				<ProjectContainer
+					data-aos="fade-zoom-in"
+     				data-aos-easing="ease-in-back"
+     				data-aos-delay="1100"
+     				data-aos-offset="0"
+				>
 					<ProjectTitle>Crypto Monitor</ProjectTitle>
 					<ProjectImage src="../assets/projects/app2.png" alt="app-1"/>
 					<ProjectText>
@@ -75,7 +100,12 @@ const Projects = () =>{
 					</LinksContainer>
 				</ProjectContainer>
 
-				<ProjectContainer>
+				<ProjectContainer
+					data-aos="fade-zoom-in"
+     				data-aos-easing="ease-in-back"
+     				data-aos-delay="1300"
+     				data-aos-offset="0"
+				>
 					<ProjectTitle>Insurance app</ProjectTitle>
 					<ProjectImage src="../assets/projects/app3.png" alt="app-1"/>
 					<ProjectText>
