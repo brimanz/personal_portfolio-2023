@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import AOS from 'aos';
 
 
 const About = () =>{
@@ -33,31 +34,122 @@ const About = () =>{
 			<SkillsContainer>
 				<SpaceContainer>
 					<Titles>Frontend</Titles>
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="react"/>
-          			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" title="javascript"/>
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" title="sass"/>
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" title="bootstrap"/>
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" title="material-UI"/>
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" title="tailwind-CSS"/>
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" title="html"/>
-          		  	<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" title="css"/>
+            		<SkillsIcons 
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="300"
+     					data-aos-offset="0"
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
+            			title="react"
+            		/>
+          			<SkillsIcons
+          				data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="500"
+     					data-aos-offset="0" 
+          				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" 
+          				title="javascript"
+          			/>
+            		<SkillsIcons 
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="700"
+     					data-aos-offset="0"
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" 
+            			title="sass"
+            		/>
+            		<SkillsIcons
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="900"
+     					data-aos-offset="0" 
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" 
+            			title="bootstrap"
+            		/>
+            		<SkillsIcons
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="1100"
+     					data-aos-offset="0" 
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" 
+            			title="material-UI"
+            		/>
+            		<SkillsIcons
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="1300"
+     					data-aos-offset="0" 
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" 
+            			title="tailwind-CSS"
+            		/>
+            		<SkillsIcons
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="1500"
+     					data-aos-offset="0" 
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" 
+            			title="html"
+            		/>
+          		  	<SkillsIcons 
+          		  		data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="1700"
+     					data-aos-offset="0"
+          		  		src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" 
+          		  		title="css"
+          		  	/>
 				</SpaceContainer>
 
 				<SpaceContainer>
 					<Titles>Testing</Titles>
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" title="jest"/>
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" title="mocha"/>          
+            		<SkillsIcons
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="1900"
+     					data-aos-offset="0" 
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" 
+            			title="jest"
+            		/>
+            		<SkillsIcons 
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="2100"
+     					data-aos-offset="0"
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" 
+            			title="mocha"
+            		/>          
 				</SpaceContainer>
 
 				<SpaceContainer>
 					<Titles>Blockchain</Titles>           		
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" title="solidity"/>
+            		<SkillsIcons
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="2300"
+     					data-aos-offset="0" 
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" 
+            			title="solidity"
+            		/>
             	</SpaceContainer>
 
 				<SpaceContainer>
 					<Titles>Learning</Titles>
-            		<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="python"/>
-          			<SkillsIcons src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" title="django"/>
+            		<SkillsIcons
+            			data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="2500"
+     					data-aos-offset="0" 
+            			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+            			title="python"
+            		/>
+          			<SkillsIcons
+          				data-aos="fade-zoom-in"
+     					data-aos-easing="ease-in-back"
+     					data-aos-delay="2700"
+     					data-aos-offset="0" 
+          				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" 
+          				title="django"
+          			/>
 				</SpaceContainer>
 			</SkillsContainer>
 
