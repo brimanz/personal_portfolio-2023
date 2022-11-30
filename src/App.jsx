@@ -6,7 +6,6 @@ import {
   Header, 
   About, 
   Projects, 
-  Contact,
   Footer
 } from './components'
 
@@ -18,7 +17,6 @@ const App = () =>{
       <Header/>
       <About/>
       <Projects/>
-      <Contact/>
       <Footer/>
     </div>
   )

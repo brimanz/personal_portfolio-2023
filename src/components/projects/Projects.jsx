@@ -142,7 +142,7 @@ const Title = styled.h2`
 	color: #EDE574;
 	margin: 0 2rem;
 
-	@media (max-width: 680px){
+	@media (max-width: 980px){
 		margin-top: 8rem;
 	}
 
@@ -158,7 +158,7 @@ const WorksContainer = styled.div`
 	@media (max-width: 980px){
 		margin: 2rem auto;
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(1, 1fr);
 	}	
 
 	@media (max-width: 479px){
