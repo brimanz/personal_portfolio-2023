@@ -72,7 +72,7 @@ const HeaderContent = styled.div`
 	align-items: center;
 	justify-content: space-between; 
 	flex-direction: column;
-	margin-top: 8rem;
+	margin-top: 6.5rem;
 `;
 const Button = styled.a`
 	background: rgba(255, 255, 255, 0.2);
@@ -103,14 +103,14 @@ const Button = styled.a`
 
 	@media (max-width: 340px){
 		text-align: center;
-		margin-top: 2rem;
+		margin-top: 1.6rem;
 	}
 `; 
 const Arrows = styled(KeyboardDoubleArrowDownIcon)`
 	font-size: 4rem;
 	animation: animationDown infinite 1.3s;
 	overflow-x: hidden;
-	margin-top: 12rem;
+	margin-top: 10rem;
 	cursor: pointer;
 	color: #f5f5f5;
 

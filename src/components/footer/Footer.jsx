@@ -16,7 +16,7 @@ export default Footer;
 
 const FooterContainer = styled.div`
 	padding: 2rem 0;
-	margin-top: 40rem;
+	margin-top: 20rem;
 	width: 100%;
 	
 	border-top: 1px solid #EDE574;
@@ -24,10 +24,10 @@ const FooterContainer = styled.div`
 	color: #ffffff;
 
 	@media (max-width: 980px){
-		margin-top: 140rem;
+		margin-top: 120rem;
 	}	
 
 	@media (max-width: 758px){
-		margin-top: 140rem;
+		margin-top: 120rem;
 	}
 `;
