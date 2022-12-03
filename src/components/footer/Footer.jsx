@@ -5,7 +5,9 @@ import styled from '@emotion/styled'
 const Footer = () =>{
 	return(
 		<FooterContainer>
-			<p>Design and Development by <strong>Jonathan Briceño</strong> - 2022</p>
+			<p>Design & Development by 
+				<strong>Jonathan Briceño</strong> - 2022
+			</p>
 		</FooterContainer>
 	);
 }
