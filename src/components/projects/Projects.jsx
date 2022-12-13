@@ -23,7 +23,7 @@ const Projects = () =>{
 					</ProjectText>
 					
 					<LinksContainer>
-						<LinkItems2/>
+						<a href="https://github.com/brimanz/transaction_app"><LinkItems2/></a>
 						<a href="https://venezuelan-crypto.netlify.app/"><LinkItems/></a>
 					</LinksContainer>
 				</ProjectContainer>
@@ -41,7 +41,7 @@ const Projects = () =>{
 					</ProjectText>
 					
 					<LinksContainer>
-						<a ><LinkItems2/></a>
+						<a href="https://github.com/brimanz/tesla_clone"><LinkItems2/></a>
 						<a href="https://tesla-clone-version.netlify.app/"><LinkItems/></a>
 					</LinksContainer>
 				</ProjectContainer>
@@ -59,7 +59,7 @@ const Projects = () =>{
 					</ProjectText>
 					
 					<LinksContainer>
-						<a ><LinkItems2/></a>
+						<a href="https://github.com/brimanz/Landing_M-rida"><LinkItems2/></a>
 						<a href="https://merida-ciudad.netlify.app/"><LinkItems/></a>
 					</LinksContainer>
 				</ProjectContainer>
@@ -77,8 +77,8 @@ const Projects = () =>{
 					</ProjectText>
 
 					<LinksContainer>
-						<a href="https://github.com/brimanz"><LinkItems2/></a>
-						<a href="https://jonathan-briceno.netlify.app/"><LinkItems/></a>			
+						<a href="https://github.com/brimanz/portfolio_nextjs"><LinkItems2/></a>
+						<a href="https://myold-portfolio.netlify.app/"><LinkItems/></a>			
 					</LinksContainer>
 				</ProjectContainer>
 
@@ -95,7 +95,7 @@ const Projects = () =>{
 					</ProjectText>
 
 					<LinksContainer>
-						<a href="https://github.com/brimanz"><LinkItems2/></a>
+						<a href="https://github.com/brimanz/Crypto_app"><LinkItems2/></a>
 						<a href="https://crypto-co.netlify.app/"><LinkItems/></a>
 					</LinksContainer>
 				</ProjectContainer>

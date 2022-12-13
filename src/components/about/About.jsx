@@ -34,6 +34,7 @@ const About = () =>{
 			<SkillsContainer>
 				<SpaceContainer>
 					<Titles>Frontend</Titles>
+            		
             		<SkillsIcons 
             			data-aos="fade-zoom-in"
      					data-aos-easing="ease-in-back"
@@ -42,6 +43,7 @@ const About = () =>{
             			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
             			title="react"
             		/>
+
           			<SkillsIcons
           				data-aos="fade-zoom-in"
      					data-aos-easing="ease-in-back"
@@ -50,6 +52,7 @@ const About = () =>{
           				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" 
           				title="javascript"
           			/>
+          
             		<SkillsIcons 
             			data-aos="fade-zoom-in"
      					data-aos-easing="ease-in-back"
@@ -58,6 +61,7 @@ const About = () =>{
             			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" 
             			title="sass"
             		/>
+
             		<SkillsIcons
             			data-aos="fade-zoom-in"
      					data-aos-easing="ease-in-back"
@@ -66,6 +70,7 @@ const About = () =>{
             			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" 
             			title="bootstrap"
             		/>
+
             		<SkillsIcons
             			data-aos="fade-zoom-in"
      					data-aos-easing="ease-in-back"
@@ -74,6 +79,7 @@ const About = () =>{
             			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" 
             			title="material-UI"
             		/>
+
             		<SkillsIcons
             			data-aos="fade-zoom-in"
      					data-aos-easing="ease-in-back"
@@ -82,6 +88,7 @@ const About = () =>{
             			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" 
             			title="tailwind-CSS"
             		/>
+
             		<SkillsIcons
             			data-aos="fade-zoom-in"
      					data-aos-easing="ease-in-back"
@@ -90,6 +97,7 @@ const About = () =>{
             			src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" 
             			title="html"
             		/>
+
           		  	<SkillsIcons 
           		  		data-aos="fade-zoom-in"
      					data-aos-easing="ease-in-back"
@@ -98,6 +106,7 @@ const About = () =>{
           		  		src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" 
           		  		title="css"
           		  	/>
+          		  	
 				</SpaceContainer>
 
 				<SpaceContainer>
