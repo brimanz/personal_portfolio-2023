@@ -156,8 +156,8 @@ const About = () =>{
      					data-aos-easing="ease-in-back"
      					data-aos-delay="2700"
      					data-aos-offset="0" 
-          				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" 
-          				title="django"
+          				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg"
+          				title="flask"
           			/>
 				</SpaceContainer>
 			</SkillsContainer>
